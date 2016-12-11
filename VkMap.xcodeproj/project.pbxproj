@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		617F506465F18ED43A81A8FC /* Pods_VkMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B91A38A7C6E2737F606922 /* Pods_VkMap.framework */; };
+		C2089F7F1DDE3B9F00A2BD8D /* APIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2089F7E1DDE3B9F00A2BD8D /* APIWorker.swift */; };
+		C2089F831DDE3E5500A2BD8D /* VKDelegateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2089F821DDE3E5500A2BD8D /* VKDelegateClass.swift */; };
+		C20F3D951DEB00670066BBF7 /* ListFrendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F3D941DEB00660066BBF7 /* ListFrendController.swift */; };
 		C29B388B1DD9AF0D00CEC2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B388A1DD9AF0D00CEC2FD /* AppDelegate.swift */; };
 		C29B388D1DD9AF0D00CEC2FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B388C1DD9AF0D00CEC2FD /* ViewController.swift */; };
 		C29B38901DD9AF0E00CEC2FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29B388E1DD9AF0E00CEC2FD /* Main.storyboard */; };
 		C29B38921DD9AF0E00CEC2FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29B38911DD9AF0E00CEC2FD /* Assets.xcassets */; };
 		C29B38951DD9AF0E00CEC2FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29B38931DD9AF0E00CEC2FD /* LaunchScreen.storyboard */; };
+		C2C43C9F1DE21E4600F517CA /* vkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C43C9E1DE21E4600F517CA /* vkObject.swift */; };
+		C2D395561DEB307A000F184E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D395551DEB307A000F184E /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50B76B937534A4D2C3FFDB87 /* Pods-VkMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkMap/Pods-VkMap.release.xcconfig"; sourceTree = "<group>"; };
+		C2089F7E1DDE3B9F00A2BD8D /* APIWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWorker.swift; sourceTree = "<group>"; };
+		C2089F821DDE3E5500A2BD8D /* VKDelegateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKDelegateClass.swift; sourceTree = "<group>"; };
+		C20F3D941DEB00660066BBF7 /* ListFrendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFrendController.swift; sourceTree = "<group>"; };
 		C29B38871DD9AF0D00CEC2FD /* VkMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29B388A1DD9AF0D00CEC2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29B388C1DD9AF0D00CEC2FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		C29B38911DD9AF0E00CEC2FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29B38941DD9AF0E00CEC2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C29B38961DD9AF0E00CEC2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C43C9E1DE21E4600F517CA /* vkObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vkObject.swift; sourceTree = "<group>"; };
+		C2D395551DEB307A000F184E /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		D8B91A38A7C6E2737F606922 /* Pods_VkMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VkMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F311D235F33FD159CECECCF9 /* Pods-VkMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VkMap/Pods-VkMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617F506465F18ED43A81A8FC /* Pods_VkMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319C839B813C6D19FA7C12FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F311D235F33FD159CECECCF9 /* Pods-VkMap.debug.xcconfig */,
+				50B76B937534A4D2C3FFDB87 /* Pods-VkMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1CC335BE27698C4BE749427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B91A38A7C6E2737F606922 /* Pods_VkMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20F3D931DEAFFE50066BBF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C29B388C1DD9AF0D00CEC2FD /* ViewController.swift */,
+				C20F3D941DEB00660066BBF7 /* ListFrendController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		C29B387E1DD9AF0D00CEC2FD = {
 			isa = PBXGroup;
 			children = (
 				C29B38891DD9AF0D00CEC2FD /* VkMap */,
 				C29B38881DD9AF0D00CEC2FD /* Products */,
+				319C839B813C6D19FA7C12FC /* Pods */,
+				C1CC335BE27698C4BE749427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,34 @@
 		C29B38891DD9AF0D00CEC2FD /* VkMap */ = {
 			isa = PBXGroup;
 			children = (
-				C29B388A1DD9AF0D00CEC2FD /* AppDelegate.swift */,
-				C29B388C1DD9AF0D00CEC2FD /* ViewController.swift */,
+				C20F3D931DEAFFE50066BBF7 /* Controller */,
+				C2E1178C1DFD9E3400C9783D /* Delegate */,
+				C2C43C9D1DE21DCE00F517CA /* Model */,
 				C29B388E1DD9AF0E00CEC2FD /* Main.storyboard */,
 				C29B38911DD9AF0E00CEC2FD /* Assets.xcassets */,
 				C29B38931DD9AF0E00CEC2FD /* LaunchScreen.storyboard */,
 				C29B38961DD9AF0E00CEC2FD /* Info.plist */,
 			);
 			path = VkMap;
+			sourceTree = "<group>";
+		};
+		C2C43C9D1DE21DCE00F517CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2089F7E1DDE3B9F00A2BD8D /* APIWorker.swift */,
+				C2C43C9E1DE21E4600F517CA /* vkObject.swift */,
+				C2D395551DEB307A000F184E /* Singleton.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C2E1178C1DFD9E3400C9783D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2089F821DDE3E5500A2BD8D /* VKDelegateClass.swift */,
+				C29B388A1DD9AF0D00CEC2FD /* AppDelegate.swift */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C29B38991DD9AF0E00CEC2FD /* Build configuration list for PBXNativeTarget "VkMap" */;
 			buildPhases = (
+				BFB059F71EFA40962E5C2FA4 /* [CP] Check Pods Manifest.lock */,
 				C29B38831DD9AF0D00CEC2FD /* Sources */,
 				C29B38841DD9AF0D00CEC2FD /* Frameworks */,
 				C29B38851DD9AF0D00CEC2FD /* Resources */,
+				8BE3B3CFA20B90FE87BF48E5 /* [CP] Embed Pods Frameworks */,
+				9A756682EFFC1B6CFCBD5BAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +162,7 @@
 				TargetAttributes = {
 					C29B38861DD9AF0D00CEC2FD = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2NVVKND5P4;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -132,13 +197,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BE3B3CFA20B90FE87BF48E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VkMap/Pods-VkMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A756682EFFC1B6CFCBD5BAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VkMap/Pods-VkMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB059F71EFA40962E5C2FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C29B38831DD9AF0D00CEC2FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C43C9F1DE21E4600F517CA /* vkObject.swift in Sources */,
+				C2D395561DEB307A000F184E /* Singleton.swift in Sources */,
 				C29B388D1DD9AF0D00CEC2FD /* ViewController.swift in Sources */,
+				C2089F7F1DDE3B9F00A2BD8D /* APIWorker.swift in Sources */,
 				C29B388B1DD9AF0D00CEC2FD /* AppDelegate.swift in Sources */,
+				C2089F831DDE3E5500A2BD8D /* VKDelegateClass.swift in Sources */,
+				C20F3D951DEB00670066BBF7 /* ListFrendController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +375,10 @@
 		};
 		C29B389A1DD9AF0E00CEC2FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F311D235F33FD159CECECCF9 /* Pods-VkMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2NVVKND5P4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VkMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Standalone.VkMap;
@@ -270,9 +389,10 @@
 		};
 		C29B389B1DD9AF0E00CEC2FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B76B937534A4D2C3FFDB87 /* Pods-VkMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2NVVKND5P4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VkMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Standalone.VkMap;
@@ -300,6 +420,7 @@
 				C29B389B1DD9AF0E00CEC2FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
